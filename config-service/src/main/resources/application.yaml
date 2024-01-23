@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: eureka
+          default-label: multiple-intances
           uri: https://github.com/Anddres98/Microservicio
           search-paths: config-data
   application:
