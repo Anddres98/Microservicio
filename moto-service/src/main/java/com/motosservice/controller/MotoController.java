@@ -35,7 +35,7 @@ public class MotoController {
     }
 
     @PostMapping
-    public ResponseEntity<Moto> guardarCarro(@RequestBody Moto moto){
+    public ResponseEntity<Moto> guardarMoto(@RequestBody Moto moto){
         Moto nuevaMoto = motoService.save(moto);
         return ResponseEntity.ok(nuevaMoto);
     }
